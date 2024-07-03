@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/storyFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/custom_gradient"
+    tools:context=".ui.main.StoryFragment">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/update_new_story"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_story"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="76dp"
+            tools:listitem="@layout/adapter_story" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_back_to_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:contentDescription="@string/txt_scroll_to_top"
+        android:text="@string/txt_scroll_to_top"
+        android:textColor="@color/white"
+        android:visibility="visible"
+        app:icon="@drawable/ic_arrow_up_24px"
+        app:iconTint="@color/white"
+        tools:ignore="TextContrastCheck" />
+</RelativeLayout>

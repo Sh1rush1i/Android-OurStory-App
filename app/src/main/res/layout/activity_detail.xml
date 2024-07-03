@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_gradient"
+    tools:context=".ui.main.DetailActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_details"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="32dp"
+        app:subtitleTextAppearance="@style/CustomToolbarTheme"
+        app:title="@string/txt_detail_story"
+        tools:ignore="TextSizeCheck"
+        tools:subtitle="@string/dummy" />
+
+    <TextView
+        android:id="@+id/tv_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/container_image"
+        android:layout_marginStart="24dp"
+        android:layout_marginVertical="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/dummy"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="John"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/container_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        app:cardCornerRadius="24dp">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_detail_photo"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:contentDescription="@string/txt_story_image"
+            android:transitionName="@string/txt_story_image"
+            tools:ignore="ImageContrastCheck"
+            tools:srcCompat="@tools:sample/avatars"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollable"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/container_image"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_detail_description"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineHeight="25dp"
+                android:text="@string/dummy"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:transitionName="story_description"
+                tools:text="This is description"
+                tools:ignore="TextContrastCheck"
+                tools:targetApi="p" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <ImageView
+        android:layout_below="@+id/scrollable"
+        android:layout_toStartOf="@+id/story_upload_time"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/dummy"
+        android:src="@drawable/ic_timer_24px"
+        app:tint="@color/white"/>
+
+    <TextView
+        android:id="@+id/story_upload_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollable"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/dummy"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        tools:text="Created at"
+        tools:ignore="TextContrastCheck" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loading"
+        android:visibility="gone"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/lottie_animation"
+        android:transitionName="lottie"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading_animation"
+        tools:ignore="ImageContrastCheck" />
+</RelativeLayout>

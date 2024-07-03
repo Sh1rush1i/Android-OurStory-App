@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/storyFragment"
+        android:icon="@drawable/ic_gallery_24px"
+        android:iconTint="@color/white"
+        android:title="@string/txt_story"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mapsFragment"
+        android:icon="@drawable/ic_location_24px"
+        android:iconTint="@color/white"
+        android:title="@string/txt_maps"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home_24px"
+        android:iconTint="@color/white"
+        android:title="@string/txt_home"
+        app:showAsAction="ifRoom" />
+</menu>

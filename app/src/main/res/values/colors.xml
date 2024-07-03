@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // Default
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#FF1C1B1F</color>
+    <color name="green">#66BB6A</color>
+    <color name="white_transparent">#2AFFFFFF</color>
+
+    // App Theme Color
+    <color name="primary_dark">#7469B6</color>
+    <color name="primary_light">#AD88C6</color>
+    <color name="secondary_light">#BC7FCD</color>
+    <color name="accent_secondary">#FFCDEA</color>
+    <color name="accent">#E1AFD1</color>
+    <color name="secondary_dark">#874CCC</color>
+    <color name="error">#EF5350</color>
+</resources>

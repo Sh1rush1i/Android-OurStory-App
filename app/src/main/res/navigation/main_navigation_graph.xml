@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/storyFragment"
+        android:name="com.submis.ourstory.ui.main.StoryFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_story" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.submis.ourstory.ui.main.MapsFragment"
+        android:label="@string/txt_maps"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.submis.ourstory.ui.main.HomeFragment"
+        android:label="@string/txt_profile"
+        tools:layout="@layout/fragment_home" />
+    <activity
+        android:id="@+id/activity_detail"
+        android:name="com.submis.ourstory.ui.main.DetailActivity"
+        android:label="@string/txt_detail_act"
+        tools:layout="@layout/activity_detail" />
+    <activity
+        android:id="@+id/activity_settings"
+        android:name="com.submis.ourstory.ui.main.DetailActivity"
+        android:label="@string/txt_detail_act"
+        tools:layout="@layout/activity_detail" />
+</navigation>

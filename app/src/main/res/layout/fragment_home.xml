@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.main.HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/container_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="68dp"
+        android:paddingBottom="34dp"
+        android:paddingHorizontal="34dp"
+        android:background="@drawable/custom_profile_background">
+
+
+        <ImageButton
+            android:id="@+id/btn_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@null"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_settings_24px"
+            app:tint="@color/white"
+            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/txt_welcome"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="RelativeOverlap,TextContrastCheck" />
+
+        <TextView
+            android:layout_below="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-8dp"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="38sp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/title_carousel"
+        android:layout_below="@+id/container_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="34dp"
+        android:layout_marginTop="18dp">
+
+        <LinearLayout
+            android:id="@+id/icon_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/txt_home"
+                android:src="@drawable/ic_history_edu_24px"
+                app:tint="@color/secondary_light"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_bangkit_dicoding"
+                android:textColor="@color/secondary_light"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title_desc"
+            android:layout_below="@+id/icon_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_submission"
+            android:textSize="12sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_carousel"
+        android:layout_below="@+id/title_carousel"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="24dp"
+        android:elevation="12dp"
+        app:layoutManager="com.google.android.material.carousel.CarouselLayoutManager"/>
+
+</RelativeLayout>

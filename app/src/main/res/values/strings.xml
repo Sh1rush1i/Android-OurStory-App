@@ -1,0 +1,84 @@
+<resources>
+    <!-- init -->
+    <string name="app_name" translatable="false">Our Story</string>
+    <string name="copyright" translatable="false">Maula @2024</string>
+    <string name="dummy">This is dummy</string>
+    <string name="ok">Okay</string>
+
+    <!-- Static Value -->
+    <string name="txt_welcome">Welcome to</string>
+    <string name="txt_settings">App Settings</string>
+    <string name="txt_aboutdev">About Developer</string>
+    <string name="txt_bangkit_dicoding">Submission for</string>
+    <string name="txt_submission">Learn Intermediate Android Application Programming</string>
+    <string name="txt_email_hint">Email</string>
+    <string name="txt_password_hint">Password</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_sign_in">Sign In</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_register_question">"No account :( ? "</string>
+    <string name="txt_password_check">Password must be the same.</string>
+    <string name="txt_sign_in_offer">"Have an account :) ? "</string>
+    <string name="txt_auth_command">You must sign in first!</string>
+    <string name="txt_sign_out">Sign Out</string>
+    <string name="lottie_animation">lottie</string>
+    <string name="txt_fab">Button add story</string>
+    <string name="txt_home">Home</string>
+    <string name="txt_maps">Map</string>
+    <string name="txt_language">Language</string>
+    <string name="txt_story_image">Story Image</string>
+    <string name="txt_story">Story</string>
+    <string name="txt_story_name">Story Name</string>
+    <string name="txt_detail_act">activity_detail</string>
+    <string name="txt_add_description">Mind to share your memories?</string>
+    <string name="txt_close_upload_page">Close Upload Page</string>
+    <string name="txt_upload_btn_desc">Upload Your Story</string>
+    <string name="txt_empty_text">No Data</string>
+    <string name="txt_close_camera">Close Camera</string>
+    <string name="txt_take_a_photo">Take a Photo</string>
+    <string name="txt_switch_camera">Switch camera</string>
+    <string name="txt_pick_gallery">Pick image from gallery</string>
+    <string name="txt_empty">Ssshhh its quiet here</string>
+    <string name="txt_retry">Try again</string>
+    <string name="txt_scroll_to_top">See what they up to now</string>
+    <string name="txt_location">Location</string>
+    <string name="txt_location_request">Location Permission</string>
+    <string name="txt_wait">Please wait</string>
+    <string name="txt_loading">Loading up your awesomeness</string>
+    <string name="txt_detail_story">Detail Story</string>
+    <string name="txt_profile">Profile</string>
+    <string name="txt_carousel">Carousel content</string>
+
+
+    <!-- Error messages -->
+    <string name="email_error">Invalid email format</string>
+    <string name="password_error">Password minimal 8 chars</string>
+    <string name="name_error">Name must be filled!</string>
+    <string name="form_error">Form must be filled correctly.</string>
+    <string name="taking_photo_failed">Failed to take a photo</string>
+    <string name="open_camera_failed">Failed to open camera</string>
+    <string name="open_camera_failed_camera_unavailable">The camera is not available.</string>
+    <string name="open_camera_failed_camera_info_unavailable">Failed to retrieve camera information.</string>
+    <string name="open_camera_failed_generic">Failed to open the camera.</string>
+    <string name="taking_photo_failed_unknown_error">An unknown error occurred while taking the photo.</string>
+    <string name="taking_photo_failed_file_io_error">There was an error accessing the file system while taking the photo.</string>
+    <string name="taking_photo_failed_capture_failed_error">The photo capture process failed.</string>
+    <string name="taking_photo_failed_camera_closed_error">The camera is closed. Please try again.</string>
+    <string name="taking_photo_failed_generic_error">An error occurred while taking the photo.</string>
+    <string name="location_not_found_error">Location not found.</string>
+    <string name="gps_error">Turn on GPS first</string>
+    <string name="permission_denied_error">Permission denied. Unable to access location.</string>
+    <string name="map_style_parsing_failed">Failed to apply map style.</string>
+    <string name="map_style_resource_not_found">Map style resource not found</string>
+    <string name="main_data_empty">Data cannot be empty</string>
+    <string name="access_denied">Access Denied</string>
+    <string name="error_loading_url">Failed to load URL</string>
+    <string name="error">An error occurred</string>
+    <string name="location_permission_denied">Location permission denied. Please grant location access to use this feature.</string>
+    <string name="enable_gps_message">GPS is disabled. Please enable GPS to use this feature.</string>
+    <string name="enable">Enable</string>
+    <string name="cancel">Cancel</string>
+    <string name="gps_already_enabled">GPS already enabled</string>
+
+
+</resources>

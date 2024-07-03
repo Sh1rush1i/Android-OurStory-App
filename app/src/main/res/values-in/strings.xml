@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- init -->
+    <string name="app_name">Our Story</string>
+    <string name="copyright">Maula @2024</string>
+    <string name="dummy">Ini dummy</string>
+    <string name="ok">Oke</string>
+
+    <!-- Static Value -->
+    <string name="txt_welcome">Selamat datang di</string>
+    <string name="txt_settings">Pengaturan Aplikasi</string>
+    <string name="txt_aboutdev">About Developer</string>
+    <string name="txt_email_hint">Email</string>
+    <string name="txt_bangkit_dicoding">Tugas untuk</string>
+    <string name="txt_submission">Belajar Pemrogaman Aplikasi Android Intermediate</string>
+    <string name="txt_password_hint">Sandi</string>
+    <string name="txt_name">Nama</string>
+    <string name="txt_sign_in">Masuk</string>
+    <string name="txt_register">Daftar</string>
+    <string name="txt_register_question">"Tidak punya akun :( ? ? "</string>
+    <string name="txt_password_check">Sandi harus sama.</string>
+    <string name="txt_sign_in_offer">"Punya akun :) ? "</string>
+    <string name="txt_auth_command">Kamu harus masuk dulu!</string>
+    <string name="txt_sign_out">Keluar</string>
+    <string name="lottie_animation">lottie</string>
+    <string name="txt_fab">Tombol tambah story</string>
+    <string name="txt_home">Beranda</string>
+    <string name="txt_maps">Peta</string>
+    <string name="txt_language">Bahasa</string>
+    <string name="txt_story_image">Gambar cerita</string>
+    <string name="txt_story">Cerita</string>
+    <string name="txt_story_name">Nama Cerita</string>
+    <string name="txt_detail_act">activity_detail</string>
+    <string name="txt_add_description">Maukah berbagi cerita?</string>
+    <string name="txt_close_upload_page">Tutup Halaman Upload</string>
+    <string name="txt_upload_btn_desc">Upload Ceritamu</string>
+    <string name="txt_empty_text">No Data</string>
+    <string name="txt_close_camera">Tutup Camera</string>
+    <string name="txt_take_a_photo">Ambil Gambar</string>
+    <string name="txt_switch_camera">Ganti kamera</string>
+    <string name="txt_pick_gallery">Ambil gambar dari galeri</string>
+    <string name="txt_empty">Ssshhh sepi sekali di sini</string>
+    <string name="txt_retry">Coba lagi</string>
+    <string name="txt_scroll_to_top">Lihat apa yang mereka lakukan</string>
+    <string name="txt_location">Lokasi</string>
+    <string name="txt_wait">Mohon tunggu sebentar</string>
+    <string name="txt_loading">Memuat keluarbiasaaan</string>
+    <string name="txt_detail_story">Detail Story</string>
+    <string name="txt_profile">Profile</string>
+    <string name="txt_carousel">Konten carousel</string>
+
+    <!-- Error messages -->
+    <string name="email_error">Format email tidak valid</string>
+    <string name="password_error">Sandi minimal 8 karakter</string>
+    <string name="name_error">Nama harus diisi</string>
+    <string name="form_error">Form harus diisi dengan benar.</string>
+    <string name="access_denied">Akses Ditolak</string>
+    <string name="taking_photo_failed">Gagal mengambil gambar</string>
+    <string name="open_camera_failed">Gagal membuka kamera</string>
+    <string name="open_camera_failed_camera_unavailable">Kamera tidak tersedia</string>
+    <string name="open_camera_failed_camera_info_unavailable">Gagal menerima informasi kamera</string>
+    <string name="open_camera_failed_generic">Gagal membuka kamera</string>
+    <string name="taking_photo_failed_unknown_error">Terjadi error saat mengambil gambar</string>
+    <string name="taking_photo_failed_file_io_error">Terdapat masalah saat mengakses file</string>
+    <string name="taking_photo_failed_capture_failed_error">Proses pengambilan gambar gagal</string>
+    <string name="taking_photo_failed_camera_closed_error">Kamera tertutup, coba lagi</string>
+    <string name="taking_photo_failed_generic_error">Terjadi kesalahan saat mengambil gambar</string>
+    <string name="location_not_found_error">Lokasi tidak ditemukan.</string>
+    <string name="gps_error">Nyalakan GPS terlebih dahulu</string>
+    <string name="permission_denied_error">"Izin ditolak. Tidak dapat mengakses lokasi "</string>
+    <string name="map_style_parsing_failed">Gagal mengaplikasikan gaya map</string>
+    <string name="map_style_resource_not_found">Map style tidak ditemukan</string>
+    <string name="main_data_empty">Data tidak boleh kosong</string>
+    <string name="error_loading_url">Gagal memuat alamat</string>
+    <string name="error">Terjadi kesalahan</string>
+    <string name="txt_location_request">Izin akses lokasi</string>
+    <string name="enable">Nyalakan</string>
+    <string name="cancel">Batal</string>
+    <string name="gps_already_enabled">GPS sudah menyala</string>
+    <string name="location_permission_denied">Akses lokasi ditolak, mohon nyalakan akses lokasi</string>
+    <string name="enable_gps_message">GPS tidak aktif, mohon nyalakan GPS</string>
+
+</resources>

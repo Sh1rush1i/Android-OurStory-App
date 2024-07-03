@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.submis.ourstory.ui.main.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/signin_to_register"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/login_home"
+            app:destination="@id/main_graph" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            android:defaultValue=" " />
+        <argument
+            android:name="password"
+            app:argType="string"
+            android:defaultValue=" " />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.submis.ourstory.ui.main.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/register_to_signin"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <include app:graph="@navigation/main_navigation_graph"/>
+</navigation>
